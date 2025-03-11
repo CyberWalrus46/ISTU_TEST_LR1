@@ -98,6 +98,21 @@ namespace TestLib.Tests
                 Assert.Equal(expectedProduct, result.Item2);
                 Assert.Equal(expectedErrors, result.Item3);
             }
+
+            [Fact]
+            public void TransformArray_ValidInput_ReturnsExpectedResult_SomeValue()
+            {
+                string[] input = { 'dhdj' };
+                var expectedArray = new int[] { 3 };
+                long expectedProduct = 3; // Product of 3
+                List<string> expectedErrors = new List<string>();
+
+                var result = ArrayProcessor.TransformArray(input);
+
+                Assert.Equal(expectedArray, result.Item1);
+                Assert.Equal(expectedProduct, result.Item2);
+                Assert.Equal(expectedErrors, result.Item3);
+            }
         }
     }
 }

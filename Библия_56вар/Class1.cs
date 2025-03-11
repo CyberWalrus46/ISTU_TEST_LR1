@@ -14,9 +14,9 @@ namespace TestLib
             long product = 1;
             List<string> errors = new List<string>();
 
-            foreach (var number in inputArray)
+            for (int i = 0; i < inputArray.Length; i++)
             {
-                product *= number;
+                product *= inputArray[i];
                 if (product == 0)
                     break;
             }
@@ -31,7 +31,7 @@ namespace TestLib
                     }
                     catch (OverflowException)
                     {
-                        errors.Add($"Overflow occurred at index {i} for value {inputArray[i]}.");
+                        errors.Add($"Переполнение по индексу {i} для значения {inputArray[i]}.");
                     }
                 }
             }
