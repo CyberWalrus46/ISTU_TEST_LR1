@@ -42,7 +42,7 @@ namespace TestLib
                 {
                     try
                     {
-                        inputArray[i] = (inputArray[i] - product) * (inputArray[i] - product);
+                        inputArray[i] = checked((inputArray[i] - product) * (inputArray[i] - product));
                     }
                     catch (OverflowException)
                     {
