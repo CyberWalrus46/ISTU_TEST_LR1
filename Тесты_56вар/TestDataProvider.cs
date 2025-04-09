@@ -20,8 +20,9 @@ namespace TestLib.Tests
     {
         public static IEnumerable<object[]> GetTestData(string testCaseName)
         {
-            string path = Path.Combine(@"C:\Users\User\source\repos\ISTU_TEST_LR1\первая_попытка\bin\Debug\net8.0\test_cases.json");
-            string json = File.ReadAllText(path);
+            //string path = Path.Combine("resources", "test_cases.json");
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "resources", "test_cases.json");
+            string json = File.ReadAllText(filePath);
             List<TestData> testCases = JsonSerializer.Deserialize<List<TestData>>(json, new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true,
