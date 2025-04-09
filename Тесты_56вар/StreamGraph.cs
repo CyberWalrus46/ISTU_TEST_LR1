@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// Тесты по потоковому графу
 namespace TestLib.Tests
 {
     public class StreamGraphTests

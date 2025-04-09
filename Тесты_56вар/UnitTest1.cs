@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
+
+// “есты с произвольными тестовыми данными
 namespace TestLib.Tests
 {
     public class UnitTest1

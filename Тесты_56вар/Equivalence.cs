@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// Тесты областей эквивалентности
 namespace TestLib.Tests
 {
     public class EquivalenceTests

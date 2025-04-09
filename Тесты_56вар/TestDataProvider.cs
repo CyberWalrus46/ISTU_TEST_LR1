@@ -5,6 +5,8 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using static System.Net.Mime.MediaTypeNames;
 
+
+// Дата провайдер
 namespace TestLib.Tests
 {
     public class TestData
@@ -31,7 +33,6 @@ namespace TestLib.Tests
 
             if (testCases == null) throw new Exception("Error: Json file is empty or contains incorrect data.");
 
-            // Ищем конкретный тест-кейс по имени
             var testCase = testCases.Find(tc => tc.name == testCaseName);
 
             if (testCase != null)
@@ -82,6 +83,5 @@ namespace TestLib.Tests
 
         public static IEnumerable<object[]> StreamGraph_TV1Data() => GetTestData("PV1");
         public static IEnumerable<object[]> StreamGraph_TV2Data() => GetTestData("PV2");
-
     }
 }
