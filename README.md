@@ -10,3 +10,5 @@
  			массив ошибок при выполнении функции
 
 # Решение находится в ветке мастер
+
+![Build status](https://github.com/CyberWalrus46/ISTU_TEST_LR1/actions/workflows/Actions_RunTests.yaml/badge.svg?branch=master)
