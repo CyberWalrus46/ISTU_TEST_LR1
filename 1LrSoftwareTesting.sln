@@ -10,6 +10,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1LrTests", "..\1ЛР_Тес
 		{D8B5FDDE-95E6-4331-A485-121B18AC1541} = {D8B5FDDE-95E6-4331-A485-121B18AC1541}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{8F4FECDF-22E0-47D7-AF68-7AD3206510EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E8E3A883-5C68-481D-8E94-36CFFE5EEB60}"
+	ProjectSection(SolutionItems) = preProject
+		Actions_RunTests.yaml = Actions_RunTests.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +34,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8E3A883-5C68-481D-8E94-36CFFE5EEB60} = {8F4FECDF-22E0-47D7-AF68-7AD3206510EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC79E59C-DF0E-4042-AE4B-520947EC86F0}
