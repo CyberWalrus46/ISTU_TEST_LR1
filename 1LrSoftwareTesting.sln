@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{8F4F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E8E3A883-5C68-481D-8E94-36CFFE5EEB60}"
 	ProjectSection(SolutionItems) = preProject
-		Actions_RunTests.yaml = Actions_RunTests.yaml
+		.github\workflows\Actions_RunTests.yaml = .github\workflows\Actions_RunTests.yaml
 	EndProjectSection
 EndProject
 Global
