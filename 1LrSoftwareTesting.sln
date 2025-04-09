@@ -5,17 +5,14 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1LrLib", "Библия_56вар\1LrLib.csproj", "{D8B5FDDE-95E6-4331-A485-121B18AC1541}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1LrTests", "..\1ЛР_Тестирование\Тесты_56вар\1LrTests.csproj", "{08467AED-98B6-4844-8538-69C2D77E510E}"
-	ProjectSection(ProjectDependencies) = postProject
-		{D8B5FDDE-95E6-4331-A485-121B18AC1541} = {D8B5FDDE-95E6-4331-A485-121B18AC1541}
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{8F4FECDF-22E0-47D7-AF68-7AD3206510EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E8E3A883-5C68-481D-8E94-36CFFE5EEB60}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\Actions_RunTests.yaml = .github\workflows\Actions_RunTests.yaml
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1LrTests", "Тесты_56вар\1LrTests.csproj", "{BA8F8B1E-18D9-4FF6-9334-F43941A9E12F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +24,10 @@ Global
 		{D8B5FDDE-95E6-4331-A485-121B18AC1541}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8B5FDDE-95E6-4331-A485-121B18AC1541}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8B5FDDE-95E6-4331-A485-121B18AC1541}.Release|Any CPU.Build.0 = Release|Any CPU
-		{08467AED-98B6-4844-8538-69C2D77E510E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08467AED-98B6-4844-8538-69C2D77E510E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08467AED-98B6-4844-8538-69C2D77E510E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08467AED-98B6-4844-8538-69C2D77E510E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8F8B1E-18D9-4FF6-9334-F43941A9E12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8F8B1E-18D9-4FF6-9334-F43941A9E12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8F8B1E-18D9-4FF6-9334-F43941A9E12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8F8B1E-18D9-4FF6-9334-F43941A9E12F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
