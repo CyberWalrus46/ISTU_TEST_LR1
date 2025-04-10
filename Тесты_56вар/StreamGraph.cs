@@ -1,12 +1,11 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 
-// Тесты по информационному графу
+// Тесты по потоковому графу
 namespace TestLib.Tests
 {
     public class InfoGraphTests
