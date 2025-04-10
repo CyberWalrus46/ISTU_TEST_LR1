@@ -75,13 +75,13 @@ namespace TestLib.Tests
         public static IEnumerable<object[]> HasOnlyNegativeEvenValues() => GetTestData("EQ26");
         public static IEnumerable<object[]> HasOnlyNegativeOddValues() => GetTestData("EQ27");
 
-        public static IEnumerable<object[]> InfoGraph_TV1Data() => GetTestData("TV1");
-        public static IEnumerable<object[]> InfoGraph_TV2Data() => GetTestData("TV2");
-        public static IEnumerable<object[]> InfoGraph_TV7Data() => GetTestData("TV7");
-        public static IEnumerable<object[]> InfoGraph_TV8Data() => GetTestData("TV8");
-        public static IEnumerable<object[]> InfoGraph_TV9Data() => GetTestData("TV9");
+        public static IEnumerable<object[]> StreamGraph_TV1Data() => GetTestData("TV1");
+        public static IEnumerable<object[]> StreamGraph_TV2Data() => GetTestData("TV2");
+        public static IEnumerable<object[]> StreamGraph_TV7Data() => GetTestData("TV7");
+        public static IEnumerable<object[]> StreamGraph_TV8Data() => GetTestData("TV8");
+        public static IEnumerable<object[]> StreamGraph_TV9Data() => GetTestData("TV9");
 
-        public static IEnumerable<object[]> StreamGraph_TV1Data() => GetTestData("PV1");
-        public static IEnumerable<object[]> StreamGraph_TV2Data() => GetTestData("PV2");
+        public static IEnumerable<object[]> InfGraph_TV1Data() => GetTestData("PV1");
+        public static IEnumerable<object[]> InfGraph_TV2Data() => GetTestData("PV2");
     }
 }

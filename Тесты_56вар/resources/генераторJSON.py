@@ -82,7 +82,7 @@ def generate_test_cases():
     test_cases.append(generate_test_case(f"TV8", arr, expected_array, expected_product, expected_errors))
 
     # tv9
-    arr = [random.randrange(-1000, 1000) for _ in range(1025)]
+    arr = [random.randrange(-1000000, 1000000) for _ in range(1025)]
     expected_array, expected_product, expected_errors = transform_array(arr)
     test_cases.append(generate_test_case(f"TV9", arr, expected_array, expected_product, expected_errors))
 
@@ -96,7 +96,7 @@ def generate_test_cases():
 
 
     # pv2
-    arr = [random.randrange(-1000, 1000) for _ in range(1025)]
+    arr = [random.randrange(-1000000, 1000000) for _ in range(1025)]
     expected_array, expected_product, expected_errors = transform_array(arr)
     test_cases.append(generate_test_case(f"PV2", arr, expected_array, expected_product, expected_errors))
 
